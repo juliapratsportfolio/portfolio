@@ -275,6 +275,19 @@ button a {
     height: 45vh;
 }
 
+#boxletsgo {
+    background-color: white;
+    background-image: url("../assets/9.png");
+    background-size: cover;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+    width: 100%;
+    height: 45vh;
+    box-shadow: 2px 2px 5px rgb(20, 20, 20, .5);
+    margin-top: 20px;
+}
+
 #boxios:hover {
     background-image: url("../assets/ios-hover.png");
     cursor: pointer;
@@ -292,6 +305,11 @@ button a {
 
 #boxdesign:hover {
     background-image: url("../assets/design-hover.png");
+    cursor: pointer;
+}
+
+#boxletsgo:hover {
+    background-image: url("../assets/theletsgo-hover.png");
     cursor: pointer;
 }
 
