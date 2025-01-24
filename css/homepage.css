@@ -608,6 +608,11 @@ footer ul>li {
         height: 150px;
     }
 
+    #boxletsgo {
+        width: 100%;
+        height: 150px;
+    }
+
     #boxempty {
         height: 150px;
         width: 10%;
@@ -738,6 +743,11 @@ footer ul>li {
     #boxweb,
     #boxdesign {
         width: 50%;
+        height: 100px;
+    }
+
+    #boxletsgo {
+        width: 100%;
         height: 100px;
     }
 
