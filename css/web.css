@@ -209,6 +209,10 @@ footer ul>li {
         height: 50px;
     }
 
+    .project-content {
+        max-width: 95%;
+    }
+
     .project-article {
         padding: 10px 20px 10px 20px; /* Updated padding to match */
         border-radius: 10px;
