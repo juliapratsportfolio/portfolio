@@ -185,7 +185,7 @@ footer ul>li {
     }
     
     .project-article {
-        padding: 20px 50px 20px 50px;
+        padding: 10px 20px 10px 20px; /* Updated padding to match */
         border-radius: 10px;
         margin-bottom: 20px;
     }
@@ -200,14 +200,21 @@ footer ul>li {
     
     .project-images {
         flex-wrap: wrap; /* Change to wrap items */
-        gap: 5px;
+        gap: 5px; /* Retained gap */
     }
 
     .project-images .project-gif,
     .project-images .project-img {
         width: auto; /* Adjust width to fit smaller screens */
         max-width: none; /* Remove max-width restriction */
-        height: 290px;
+        height: 250px; /* Updated height */
         flex: 2 1; /* Take full width of the container */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 0px; /* Adjust the size as needed */
+        height: 0px;
     }
 }
